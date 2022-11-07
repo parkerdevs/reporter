@@ -1,0 +1,3 @@
+<div *ngFor="let workspace of workspaces">
+  <a href="#" (click)="workspaceService.setActiveWorkspace(workspace)">{{ workspace.name }}</a>
+</div>
